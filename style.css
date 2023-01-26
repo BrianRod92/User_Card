@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 650px;
+    height: 300px;
+    margin-left: 500px;
+    border: 3px solid gray;
+    /* background-color: blue; */
+}
+
+.topBar {
+    background-color: skyblue;
+    height: 100px;
+    margin-top: -79px;
+    /* width: 500px; */
+    width: inherit;
+    /* position: absolute; */
+    /* top: -20px; */
+}
+
+.profilePicture img {
+    border-radius: 50%;
+    border: 5px solid lightgray;
+    height: 65px;
+    position: relative;
+    top: 65px;
+    left: 40px;
+}
+
+.userName h1 {
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+
+.location {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.location img {
+    height: 20px;
+}
+
+.cityName {
+    /* font-weight: bold; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.description {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.edit img {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+
+.edit {
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
